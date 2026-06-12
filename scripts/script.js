@@ -1,5 +1,6 @@
-
-console.log('hi');
+import {cart} from "../data/cart.js"
+import {products} from "../data/products.js"
+//console.log('hi');
 /*const products=[{
     image:"images/products/athletic-cotton-socks-6-pairs.jpg",
     name:"Black and Gray Athletic Cotton Socks - 6 Pairs",
@@ -102,9 +103,9 @@ forEach((product1)=>
     {
       totalquantity+=item.quantity;
     })
-    console.log(totalquantity);
+    //console.log(totalquantity);
     document.querySelector('.js-cart-quantity').innerHTML=totalquantity;
-console.log(cart);
+//console.log(cart);
   })
 })
    
